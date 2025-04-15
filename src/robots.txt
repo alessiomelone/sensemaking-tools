@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jigsaw-code.github.io/sensemaking-tools/sitemap.xml

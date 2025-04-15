@@ -1,0 +1,48 @@
+{
+  "name": "sensemaker",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode=development",
+    "build": "webpack --mode=development",
+    "build-production": "webpack --mode=production",
+    "preview": "serve -p 8080 site"
+  },
+  "workspaces": [
+    "_glue"
+  ],
+  "engines": {
+    "node": "22"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@google/glue": "file:_glue",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "gts": "^6.0.2",
+    "html-webpack-inject-attributes-plugin": "^1.0.6",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.1.5",
+    "resolve-url-loader": "^5.0.0",
+    "rxjs": "^7.8.2",
+    "sass": "^1.86.1",
+    "sass-loader": "^16.0.5",
+    "serve": "^14.2.4",
+    "style-loader": "^4.0.0",
+    "stylelint": "^16.18.0",
+    "stylelint-config-recommended-scss": "^14.1.0",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-scss": "^6.11.1",
+    "stylelint-webpack-plugin": "^5.0.1",
+    "terser-webpack-plugin": "^5.3.14",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {}
+}
