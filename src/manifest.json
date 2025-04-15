@@ -1,0 +1,13 @@
+{
+  "short_name": "Sensemaker",
+  "name": "Sensemaker | Jigsaw",
+  "start_url": "./",
+  "scope": ".",
+  "icons": [
+    { "sizes": "any", "src": "assets/images/favicon.svg", "type": "image/svg+xml" }
+  ],
+  "background_color": "#1e2656",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1e2656"
+}
