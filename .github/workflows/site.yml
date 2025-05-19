@@ -54,10 +54,10 @@ jobs:
 
           # Grab main:docs
           rm -rf docs
-          git checkout origin/main -- docs
+          git checkout origin/main -- library/docs
 
           # Move docs site into site/docs
-          mv docs site
+          mv library/docs site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
