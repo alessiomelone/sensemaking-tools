@@ -136,12 +136,38 @@
           </div>
           <div class="glue-header__container">
             <div class="glue-header__supplemental">
-              <a href="docs" class="g-header-link glue-header__link glue-button glue-button--icon-right" rel="noopener noreferrer" target="_blank" aria-label="Documentation">
-                Documentation
-                <svg role="presentation" aria-hidden="true" class="glue-icon glue-icon--open-in-new">
-                  <use href="assets/images/glue-icons.svg#open-in-new"></use>
-                </svg>
-              </a>
+              <div class="link-bar-dropdown" data-js-dropdown>
+                <button
+                  class="g-header-link glue-header__link glue-button glue-button--icon-right link-bar-dropdown-trigger"
+                  aria-expanded="false"
+                  data-js-dropdown-trigger
+                >
+                  Documentation
+                  <svg role="presentation" aria-hidden="true" class="glue-icon glue-icon--open-in-new">
+                    <use href="assets/images/glue-icons.svg#arrow-drop-down"></use>
+                  </svg>
+                </button>
+                <div class="link-bar-dropdown-target" data-js-dropdown-target>
+                  <ul class="link-bar-dropdown-list">
+                    <li>
+                      <a href="docs" class="link-bar-dropdown-link">
+                        Main Documentation
+                        <svg role="presentation" aria-hidden="true" class="glue-icon glue-icon--open-in-new">
+                          <use href="assets/images/glue-icons.svg#open-in-new"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="visualizations" class="link-bar-dropdown-link">
+                        Visualizations Library
+                        <svg role="presentation" aria-hidden="true" class="glue-icon glue-icon--open-in-new">
+                          <use href="assets/images/glue-icons.svg#open-in-new"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <a href="https://github.com/Jigsaw-Code/sensemaking-tools/" class="g-header-link glue-header__link glue-button glue-button--icon-right g-button-reverse" rel="noopener noreferrer" target="_blank" aria-label="Developer Library">
                 Developer Library
                 <svg role="presentation" aria-hidden="true" class="glue-icon glue-icon--open-in-new">
