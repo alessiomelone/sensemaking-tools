@@ -30,6 +30,7 @@
 @use './app/webfonts/webfonts';
 
 @use './components/bundle-error/bundle-error';
+@use './components/link-bar-dropdown/link-bar-dropdown';
 
 // Custom overrides
 .glue-fullbleed {
@@ -269,7 +270,7 @@
           display: none;
         }
 
-        .g-header-link {  
+        .g-header-link {
           background: transparent;
           border: 0;
           color: #fff;
