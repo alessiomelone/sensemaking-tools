@@ -1,17 +1,611 @@
 [
   {
-    "name": "Topic 1",
-    "commentCount": 0,
-    "voteCount": 0,
-    "relativeAlignment": "moderately high alignment",
+    "name": "Transportation",
+    "commentCount": 111,
+    "voteCount": 40746,
+    "relativeAlignment": "high alignment",
     "relativeEngagement": "high engagement",
     "subtopicStats": [
       {
-        "name": "Subtopic 1",
-        "commentCount": 0,
-        "voteCount": 0,
+        "name": "Traffic Flow",
+        "commentCount": 37,
+        "voteCount": 13417,
         "relativeAlignment": "moderately low alignment",
         "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Roadways",
+        "commentCount": 27,
+        "voteCount": 7357,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Pedestrian Infrastructure",
+        "commentCount": 21,
+        "voteCount": 10400,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Public Transportation",
+        "commentCount": 10,
+        "voteCount": 4543,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Parking",
+        "commentCount": 10,
+        "voteCount": 2786,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Airport",
+        "commentCount": 6,
+        "voteCount": 2243,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Economic Development",
+    "commentCount": 84,
+    "voteCount": 37956,
+    "relativeAlignment": "high alignment",
+    "relativeEngagement": "high engagement",
+    "subtopicStats": [
+      {
+        "name": "Other",
+        "commentCount": 19,
+        "voteCount": 10296,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Consumer Needs and Retail Diversity",
+        "commentCount": 15,
+        "voteCount": 7040,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Fair Wages and Benefits",
+        "commentCount": 13,
+        "voteCount": 5448,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Workforce Development",
+        "commentCount": 9,
+        "voteCount": 1732,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Downtown Revitalization",
+        "commentCount": 9,
+        "voteCount": 3722,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Tourism",
+        "commentCount": 8,
+        "voteCount": 4670,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Business Attraction and Retention",
+        "commentCount": 6,
+        "voteCount": 3242,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Small Business Support",
+        "commentCount": 5,
+        "voteCount": 1806,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Education",
+    "commentCount": 83,
+    "voteCount": 30305,
+    "relativeAlignment": "high alignment",
+    "relativeEngagement": "high engagement",
+    "subtopicStats": [
+      {
+        "name": "Curriculum And Instruction",
+        "commentCount": 18,
+        "voteCount": 6318,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Higher Education",
+        "commentCount": 16,
+        "voteCount": 7886,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "School Funding",
+        "commentCount": 14,
+        "voteCount": 5556,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "School Choice",
+        "commentCount": 8,
+        "voteCount": 2243,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Safety",
+        "commentCount": 6,
+        "voteCount": 1309,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Nutrition",
+        "commentCount": 5,
+        "voteCount": 1115,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "School Districting",
+        "commentCount": 5,
+        "voteCount": 909,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Arts Education",
+        "commentCount": 5,
+        "voteCount": 1834,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Class Size",
+        "commentCount": 2,
+        "voteCount": 932,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Teacher Recruitment And Retention",
+        "commentCount": 2,
+        "voteCount": 1136,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Special Education",
+        "commentCount": 1,
+        "voteCount": 522,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Extracurricular Activities",
+        "commentCount": 1,
+        "voteCount": 545,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Community Services",
+    "commentCount": 81,
+    "voteCount": 30907,
+    "relativeAlignment": "high alignment",
+    "relativeEngagement": "high engagement",
+    "subtopicStats": [
+      {
+        "name": "Affordable Housing and Homelessness",
+        "commentCount": 21,
+        "voteCount": 10251,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Parks and Recreation",
+        "commentCount": 20,
+        "voteCount": 6527,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Community Centers and Youth Programs",
+        "commentCount": 16,
+        "voteCount": 6572,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Support for Underserved Populations",
+        "commentCount": 10,
+        "voteCount": 3450,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Food Security",
+        "commentCount": 8,
+        "voteCount": 2173,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Senior Services",
+        "commentCount": 6,
+        "voteCount": 1934,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Quality of Life",
+    "commentCount": 70,
+    "voteCount": 27704,
+    "relativeAlignment": "high alignment",
+    "relativeEngagement": "high engagement",
+    "subtopicStats": [
+      {
+        "name": "Community Diversity and Inclusion",
+        "commentCount": 13,
+        "voteCount": 9458,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "City Beautification and Maintenance",
+        "commentCount": 13,
+        "voteCount": 4434,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Arts and Culture",
+        "commentCount": 10,
+        "voteCount": 5167,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Housing and Affordability",
+        "commentCount": 8,
+        "voteCount": 3241,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Parks and Recreation",
+        "commentCount": 7,
+        "voteCount": 973,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Animal Welfare",
+        "commentCount": 6,
+        "voteCount": 907,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Fairness and Equality",
+        "commentCount": 5,
+        "voteCount": 1631,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Public Media and Communication",
+        "commentCount": 4,
+        "voteCount": 992,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Activities and Entertainment",
+        "commentCount": 4,
+        "voteCount": 901,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Public Safety",
+    "commentCount": 62,
+    "voteCount": 22252,
+    "relativeAlignment": "high alignment",
+    "relativeEngagement": "high engagement",
+    "subtopicStats": [
+      {
+        "name": "Policing",
+        "commentCount": 19,
+        "voteCount": 6595,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Drug Enforcement",
+        "commentCount": 13,
+        "voteCount": 6695,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Traffic Safety",
+        "commentCount": 13,
+        "voteCount": 3383,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Legal System",
+        "commentCount": 5,
+        "voteCount": 1856,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Emergency Services",
+        "commentCount": 4,
+        "voteCount": 674,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Fire Safety",
+        "commentCount": 4,
+        "voteCount": 1590,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Crime Prevention",
+        "commentCount": 4,
+        "voteCount": 1459,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Land Use and Zoning",
+    "commentCount": 53,
+    "voteCount": 18021,
+    "relativeAlignment": "high alignment",
+    "relativeEngagement": "high engagement",
+    "subtopicStats": [
+      {
+        "name": "Zoning Regulations",
+        "commentCount": 19,
+        "voteCount": 5993,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Development and Urban Planning",
+        "commentCount": 19,
+        "voteCount": 7981,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Community Input and Enforcement",
+        "commentCount": 7,
+        "voteCount": 2278,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Property Maintenance and Appearance",
+        "commentCount": 6,
+        "voteCount": 1419,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Historic Preservation",
+        "commentCount": 2,
+        "voteCount": 350,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Government Administration",
+    "commentCount": 49,
+    "voteCount": 19359,
+    "relativeAlignment": "moderately high alignment",
+    "relativeEngagement": "moderate engagement",
+    "subtopicStats": [
+      {
+        "name": "Taxation and Spending",
+        "commentCount": 12,
+        "voteCount": 3452,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Ethics and Conflicts of Interest",
+        "commentCount": 11,
+        "voteCount": 4746,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Government Structure and Efficiency",
+        "commentCount": 9,
+        "voteCount": 3384,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Citizen Participation and Influence",
+        "commentCount": 8,
+        "voteCount": 3353,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Government Transparency and Accountability",
+        "commentCount": 5,
+        "voteCount": 2497,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Code Enforcement and Regulations",
+        "commentCount": 4,
+        "voteCount": 1927,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Healthcare",
+    "commentCount": 34,
+    "voteCount": 8924,
+    "relativeAlignment": "moderately high alignment",
+    "relativeEngagement": "moderate engagement",
+    "subtopicStats": [
+      {
+        "name": "Drug Abuse and Addiction",
+        "commentCount": 15,
+        "voteCount": 4226,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Access to Healthcare",
+        "commentCount": 7,
+        "voteCount": 2304,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Reproductive and Sexual Health",
+        "commentCount": 6,
+        "voteCount": 894,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Nutrition and Healthy Eating",
+        "commentCount": 3,
+        "voteCount": 486,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Mental Health",
+        "commentCount": 3,
+        "voteCount": 1014,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Environment",
+    "commentCount": 34,
+    "voteCount": 9439,
+    "relativeAlignment": "moderately high alignment",
+    "relativeEngagement": "moderate engagement",
+    "subtopicStats": [
+      {
+        "name": "Recycling",
+        "commentCount": 9,
+        "voteCount": 2702,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "moderate engagement"
+      },
+      {
+        "name": "Sustainability",
+        "commentCount": 7,
+        "voteCount": 1306,
+        "relativeAlignment": "moderately high alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Litter",
+        "commentCount": 7,
+        "voteCount": 2302,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Green Space",
+        "commentCount": 6,
+        "voteCount": 1844,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Trees",
+        "commentCount": 5,
+        "voteCount": 1285,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "low engagement"
+      }
+    ]
+  },
+  {
+    "name": "Infrastructure",
+    "commentCount": 29,
+    "voteCount": 10769,
+    "relativeAlignment": "moderately low alignment",
+    "relativeEngagement": "low engagement",
+    "subtopicStats": [
+      {
+        "name": "Internet Access",
+        "commentCount": 16,
+        "voteCount": 6840,
+        "relativeAlignment": "moderately low alignment",
+        "relativeEngagement": "high engagement"
+      },
+      {
+        "name": "Roadways and Sidewalks",
+        "commentCount": 5,
+        "voteCount": 1595,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Utilities",
+        "commentCount": 5,
+        "voteCount": 1237,
+        "relativeAlignment": "low alignment",
+        "relativeEngagement": "low engagement"
+      },
+      {
+        "name": "Public Infrastructure Maintenance",
+        "commentCount": 3,
+        "voteCount": 1097,
+        "relativeAlignment": "high alignment",
+        "relativeEngagement": "low engagement"
       }
     ]
   }

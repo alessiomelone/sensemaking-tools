@@ -14,8 +14,8 @@ import { SensemakingChartWrapperComponent } from '../../components/sensemaking-c
 import { StatementCardComponent } from '../../components/statement-card/statement-card.component';
 
 import importedTopicData from  "../../../../data/topic-stats.json";
-import importedSummaryData from  "../../../../data/summary.json";
-import importedCommentData from  "../../../../data/comments.json";
+import importedSummaryData from  "../../../../../visualization-library/stories/data/summary.json";
+import importedCommentData from  "../../../../../visualization-library/stories/data/comments.json";
 import importedReportMetadata from "../../../../data/metadata.json";
 
 import {
